@@ -26,7 +26,7 @@ jQuery(document).ready(function($) {
 
 	$('#btn-download').click(function()
 	{
-		if( $('a[href^="'+this.getAttribute('href')+'"]', '.mainmenu').hasClass('active')  ) {
+		if( ! $('a[href^="'+this.getAttribute('href')+'"]', '.mainmenu').hasClass('active')  ) {
 			// close all visible divs with the class of .section
 			current_item = $('a[href^="'+this.getAttribute('href')+'"]', '.mainmenu');
 			$('.section:visible').fadeOut( section_hide_time, function() {
