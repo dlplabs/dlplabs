@@ -21,6 +21,9 @@ body {
     font-weight: normal;
 }
 
+h2 {
+    font-size: 3vh; 
+}
 
 /********************************************************/
 
@@ -193,7 +196,7 @@ a:active {
 .subtitle {
     line-height: .9em;
     /*font-size: 5.5em;*/
-    font-size: 11vw;
+    font-size: 7vw;
     margin-top: 0;
     margin-bottom: 40px;
 }
