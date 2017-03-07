@@ -1,6 +1,10 @@
 .apps-description {
-  width: 250px;
+  width: auto;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;  
+}
+
+.container{
+  max-width: 950px;
 }
